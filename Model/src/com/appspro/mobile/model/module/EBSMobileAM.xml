@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+<!---->
+<AppModule
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="EBSMobileAM"
+  Version="11.1.1.65.57"
+  InheritPersonalization="true"
+  ComponentClass="com.appspro.mobile.model.module.EBSMobileAMImpl"
+  ClearCacheOnRollback="true">
+  <DesignTime>
+    <Attr Name="_deployType" Value="0"/>
+    <Attr Name="_isCodegen" Value="true"/>
+  </DesignTime>
+  <Properties>
+    <SchemaBasedProperties>
+      <LABEL
+        ResId="com.appspro.mobile.model.module.EBSMobileAM_LABEL"/>
+    </SchemaBasedProperties>
+  </Properties>
+  <ViewUsage
+    Name="XXEmployeeInfoVO1"
+    ViewObjectName="com.appspro.mobile.model.view.XXEmployeeInfo"/>
+  <ResourceBundle>
+    <PropertiesBundle
+      PropertiesFile="com.appspro.mobile.model.ModelBundle"/>
+  </ResourceBundle>
+</AppModule>

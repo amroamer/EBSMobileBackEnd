@@ -1,0 +1,8 @@
+.data/
+temp/
+classes/
+cwallet.sso.lck
+ViewController/classes
+Model/classes
+*.data
+*.class
